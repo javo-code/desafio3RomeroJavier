@@ -36,7 +36,7 @@ app.get("/products", async (req, res) => {
 });
 
 // Ruta para obtener un producto por su ID.
-app.get('/products/:id', async (req, res) => {
+app.get('/products/:pid', async (req, res) => {
     try {
         // Extrae el valor del parámetro "id" de la URL usando req.params en lugar de res.params.
         const { id } = req.params;
