@@ -22,7 +22,7 @@ app.get("/products", async (req, res) => {
     }
 });
 
-app.get("/api/:pid", async (req, res) => {
+app.get("/products/:pid", async (req, res) => {
     try {
         const { pid } = req.params;
 
